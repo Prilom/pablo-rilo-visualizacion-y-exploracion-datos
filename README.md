@@ -16,7 +16,7 @@ un usuario de airbnb.
       1)Precio/noche
       2)nº de huéspedes
       3)Barrio
-      4)Fianza: SI/NO
+      4)Fianza:1 SI/NO
       5)Puntuación
       
   C.Acciones en dashboard.
@@ -29,6 +29,7 @@ un usuario de airbnb.
   
   
 Consideraciones: 
-      1) Puesto que uno de los Kpi´s relevantes es la puntuación del alojamiento (Reviews Score Value) y existian muchos que no tenían, los he eliminado de la base de              datos
+      1) Puesto que uno de los Kpi´s relevantes es la puntuación del alojamiento (Reviews Score Value) y existian muchos que no tenían, los he eliminado de la base de datos igual que los que no tenian valor en Price
       2) Otro Kpi con valores nulos es el del importe de la limpieza(Cleaned fee) y la fianza(Security Deposit), en este caso, aunque entiendo que no sería lo 
       correcto, dichos valores los he tomado como cero, es decir, en los que no se cobra. Puesto que la finalidad de la práctica es valorar el manejo de Tableau       consideré dicha opción
+      3) No he realizado la conexión de Nveces alquilado por que está vinculada a los id de los anfitriones y no sería de gran utilidad en mi caso
